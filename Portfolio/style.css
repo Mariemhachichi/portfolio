@@ -1,0 +1,119 @@
+/*****navbar******/
+nav img{
+    width: 150px;
+    top: 17%;
+    left: 12%;
+}
+
+nav div ul li {
+    list-style: none;
+    display: inline-block;
+    line-height: 40px;
+    margin: 15px;
+}
+
+nav div ul li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+}
+
+
+.partie1{
+    background-image: url('image/fond.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 7em;
+}
+h1{
+    font-size: 5em;
+    font-family: fantasy;
+    color: white;
+    padding-left: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2{
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    column-gap: 4em;
+    background-color:#F0FFF0;
+}
+p{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#808080;
+    line-height: 1.5em;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #B0E0E6;
+}
+
+.card {
+  width: 400px; 
+  margin: 0px auto; 
+  background-color: white;
+  box-shadow: 0px 5px 20px #999;
+}
+
+.card-image {
+    height: 250px;
+  }
+  .card-image img {
+    width: 100%;
+    height: 100%;
+  }
+.flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+.images img{
+    border-radius: 200%;
+}
+.images{
+    display: flex;
+   justify-content: space-around;
+}
+
+/****fom*****/
+input[type=text], select, textarea {
+    width: 450%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 350% !important;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
